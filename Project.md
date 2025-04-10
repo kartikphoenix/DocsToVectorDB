@@ -42,20 +42,13 @@ project/
 - **Simple Installation**: Python virtual environment and pip requirements
 - **Database Setup**: Automated setup script included
 
-## 7. Demo Flow Suggestion
-1. Show the folder structure and file placement
-2. Demonstrate file processing
-3. Show the vector storage in Supabase
-4. Perform example semantic searches
-5. Highlight the API documentation at `/docs`
-
-## 8. Technical Requirements
+## 7. Technical Requirements
 - Python 3.8+
 - Supabase account with pgvector
 - OpenAI API key
 - Local storage for file processing
 
-## 9. Future Potential/Extensions
+## 8. Future Potential/Extensions
 - Additional file format support
 - Real-time file processing
 - Advanced search features
