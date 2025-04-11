@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     
     # File Processing Configuration
     folder_path: Path = Path(os.getenv("FOLDER_PATH", "./folder"))
-    chunk_size: int = 1000
+    chunk_size: int = 10000
     chunk_overlap: int = 200
     
     class Config:

@@ -89,7 +89,7 @@ class DatabaseService:
                 "match_chunks",
                 {
                     "query_embedding": query_embedding,
-                    "match_threshold": 0.5,
+                    "match_threshold": 0.1,
                     "match_count": limit
                 }
             ).execute()
